@@ -171,7 +171,7 @@ class ViewInfoReader(object):
             # get optional data
             p_required = str_to_type(param.get('required', True), 'boolean')
             p_description = param.get('description', None)
-            p_example = str_to_type(param.get('default', None), p_type)
+            p_example = str_to_type(param.get('example', None), p_type)
 
             # make field
             field = {
