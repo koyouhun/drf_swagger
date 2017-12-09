@@ -14,7 +14,6 @@ class OpenAPIRenderer(BaseRenderer):
             return JSONRenderer().render(data)
 
         schema = data.swagger_schema
-        print schema
         if schema is None:
             raise ValidationError('Schema generation fail')
         return JSONRenderer().render(schema)

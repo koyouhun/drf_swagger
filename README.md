@@ -48,8 +48,11 @@ class RootSerializer(serializers.ModelSerializer):
 
 
 # Install
+
 # Quick Start
 
-
+# Warning
+- For security, override SwaggerView and add login
+- Will Make login/security setting someday...
 
 [example-img]: https://github.com/koyouhun/drf_swagger/blob/master/img/web.png?raw=true
