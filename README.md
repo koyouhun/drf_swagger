@@ -6,6 +6,10 @@
 - Code Based (Serializer to Docs)
 - Swagger UI (https://swagger.io/swagger-ui/)
 
+# Install
+```bash
+pip install drf-swagger
+```
 
 # Example
 ```python
@@ -45,9 +49,6 @@ class RootSerializer(serializers.ModelSerializer):
         )
 ```
 ![example-img]
-
-
-# Install
 
 # Quick Start
 
