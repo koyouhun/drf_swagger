@@ -19,6 +19,11 @@ INSTALLED_APPS = [
     'drf_swagger',    # Add drf_swagger
 ]
 ```
+3. DRF Swagger contains swagger UI static files
+```bash
+(Your app directory)$ python manage.py collectstatic
+```
+
 
 # Example
 ```python
