@@ -7,7 +7,7 @@
 - Swagger UI (https://swagger.io/swagger-ui/)
 
 # Install
-0. python2.7
+0. python 2.7, python 3.6
 
 1. install package
 ```bash
@@ -73,6 +73,5 @@ class RootSerializer(serializers.ModelSerializer):
 
 # Future Work
 - login/security setting
-- support python 3
 
 [example-img]: https://github.com/koyouhun/drf_swagger/blob/master/img/web.png?raw=true
