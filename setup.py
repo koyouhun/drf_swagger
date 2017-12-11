@@ -12,7 +12,6 @@ setup(
     description='Django REST Framework + Swagger',
     keywords=['django', 'swagger', 'api', 'documentation'],
     classifiers=[
-          'Development Status :: 1',
           'License :: BSD',
           'Programming Language :: Python :: 2.7'
       ],
