@@ -7,6 +7,8 @@
 - Swagger UI (https://swagger.io/swagger-ui/)
 
 # Install
+0. python2.7
+
 1. install package
 ```bash
 pip install drf_swagger
