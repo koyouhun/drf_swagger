@@ -70,6 +70,9 @@ class RootSerializer(serializers.ModelSerializer):
 
 # Warning
 - For security, override SwaggerView and add login
-- Will Make login/security setting someday...
+
+# Future Work
+- login/security setting
+- support python 3
 
 [example-img]: https://github.com/koyouhun/drf_swagger/blob/master/img/web.png?raw=true
