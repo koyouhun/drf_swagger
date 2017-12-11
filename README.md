@@ -7,8 +7,17 @@
 - Swagger UI (https://swagger.io/swagger-ui/)
 
 # Install
+1. install package
 ```bash
-pip install drf-swagger
+pip install drf_swagger
+```
+2. add django setting.py INSTALLED_APPS
+```python
+INSTALLED_APPS = [
+    # Your apps
+    'rest_framework', # need django rest framework
+    'drf_swagger',    # Add drf_swagger
+]
 ```
 
 # Example
